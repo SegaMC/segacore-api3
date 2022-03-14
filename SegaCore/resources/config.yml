@@ -1,0 +1,75 @@
+#kills/death/kdr/
+#fall damage/
+#item drop/
+#hunger/
+#always spawn/
+#spawn cmd/
+#pearl cooldown/
+#anti void/
+
+#Bool: true: allows to drop item, false: deny item drop
+itemDrop: true
+
+#Bool: true: hunger bar will go down, false: always full
+Hunger: false
+
+#Bool: true: fall damage is enabled false: no fall damage
+fallDamage: true
+
+#Bool: true: always teleport to spawn when logging in
+alwaysSpawn: true
+
+#Bool: true: teleports player to spawn when hitting the void
+antiVoid: true
+
+#String: Custom message sent to player when running /spawn, /hub
+spawnMessage: "Teleported to Spawn"
+
+#Array-String: Kill messages (you can add as much as you want and they'll be randomized)
+#{killer} {victim} for names,
+#{killer_hp} {victim_hp} for hp,
+#{killer_pots} {victim_pots} for pots left, [NOTE: THIS IS ONLY EFFECTIVE ON ARENAS USING NODEBUFF KIT]
+killMessage:
+  - "§a{killer} [{killer_pots} pots] [{killer_hp} HP]§r killed §4{victim} [{victim_pots} pots]§r"
+
+#Float: PearlCooldown Time (in seconds)
+pearlCooldownTime: 10.0
+#String: PearlCooldown Message  use {time}  as cooldown time
+pearlCooldownMessage: "Wait {time} seconds to pearl again"
+#Array: Affected worlds with pearl cooldown
+pearlCooldownWorlds:
+  - "Nodebuff"
+
+
+#(under development)
+#Float: antiInterupt cooldown (in seconds)
+antiInteruptTime: 0.0
+#String: Interrupter message (use {nname for target player name)
+antiInteruptMsg1: "Your Target is {name}"
+antiInteruptMsg2: "You can't interupt"
+#Array: Affected worlds with AntiInterupt
+antiInteruptWorlds:
+  - "Fist"
+  - "Resistance"
+  - "Resistance2"
+  - "Sumo"
+  - "Nodebuff"
+  - "Gapple"
+  - "Combo"
+  - "Soup"
+
+
+#String: World Names for FFA arenas
+FFAWorlds:
+  Fist: "Fist"
+  Resistance: "Resistance"
+  Resistance2: "Resistance2"
+  Sumo: "Sumo"
+  Gapple: "Gapple"
+  Nodebuff: "Nodebuff"
+  Combo: "Combo"
+  Soup: "Soup"
+  Build: "Build"
+  Knockback: "Knockback"
+
+Changelogs: "bla bla test"

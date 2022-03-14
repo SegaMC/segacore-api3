@@ -1,0 +1,4 @@
+name: SegaStatus
+version: 0.0.1
+main: sega\Status\Main
+api: 3.25.0
