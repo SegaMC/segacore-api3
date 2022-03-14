@@ -1,7 +1,7 @@
 # segacore
 Sega private core
 
-##TODO
+## TODO
 ```
 Remove Player Damage in lobby and breaking blocks
 
