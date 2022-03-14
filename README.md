@@ -1,2 +1,2 @@
 # segacorem
-Suga private core
+Sega private core
