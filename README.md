@@ -1,0 +1,2 @@
+# segacorem
+Suga private core
