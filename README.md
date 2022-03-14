@@ -23,6 +23,9 @@ Fix Kill Counter,Death Counter,KDR not working properly
 
 Fix When you get killed by your opponent by lava or bow or arrow it won't count in leaderboard
 
+Make Scoreboard For FFA And Duels
+
+Make Kit Editor For Gamemodes
 
 Update The Core to PM4
 
