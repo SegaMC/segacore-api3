@@ -1,5 +1,5 @@
 # segacore
-Sega private core
+Sega private core was never used in sega tho because we made new core for api 4
 
 ## TODO
 ```
