@@ -1,6 +1,7 @@
 # segacore
 Sega private core was never used in sega tho because we made new core for api 4
-
+### Discord
+_https://dsc.gg/segapvp_
 ## TODO
 ```
 Remove Player Damage in lobby and breaking blocks
